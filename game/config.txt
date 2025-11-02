@@ -1,0 +1,10 @@
+Game_name:ENIHS;
+Game_key:10232d9079bcbe1;
+Title_img:bg.jpg;
+Title_bgm:s_Title.mp3;
+Textbox_theme:imss;
+Show_panic:true;
+Default_Language:zh_CN;
+Description:test;
+Package_name:com.qeqenn.webgaltest;
+Game_Logo:bg.jpg;

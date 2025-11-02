@@ -1,0 +1,15 @@
+; 初始场景，以及特效演示
+bgm:czzx.mp3;
+intro:你好|欢迎来到翠竹中学 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:classroom.jpg -next;
+unlockCg:classroom.jpg -name=良夜;
+changeFigure:teacherstand.png -right -next;
+setAnimation:enter-from-left -target=fig-left -next;
+蒋亚琴:赵耀已经休了一个国庆了;
+; 模版修改演示
+changeFigure: -right -next;
+changeFigure:zhaoyaostand.png -left -transform={"scale":{"x":0.7,"y":0.7}};
+赵耀:我要休学 -fontSize=large;
+setTextbox:hide;
+changeFigure: -left;
+end;
